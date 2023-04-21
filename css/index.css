@@ -23,7 +23,6 @@ header {
 }
 
 h1 a{
-    
     font-size: 20px;
     color: #fff;
     text-decoration: none;
@@ -34,13 +33,13 @@ li a{
     color: #968c8c;
 }
 
-ul {
+header ul {
     list-style: none;
     margin: 0;
     display: flex;   
 }
 
-li {
+header li {
     margin: 0 0 0 15px;
     font-size: 14px;
 }

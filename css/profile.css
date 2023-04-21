@@ -1,4 +1,8 @@
 /* profile */
+.profile {
+    margin: 20px;
+}
+
 #profile-headline {
     display: flex;
     align-items: center;
@@ -14,6 +18,53 @@
     height: 60px;
 }
 
-.profile {
+#profile-border{
+    display: flex;
+    border: solid;
+}
+
+#profile-border ul{
+    list-style: none;
+}
+#profile-border img {
+    width: 244px;
+    height: 322px;
+}
+
+/* hobby */
+.hobby{
     margin: 20px;
 }
+
+#hobby-headline {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#hobby-headline p {
+    font-size: 40px;
+    text-align: center;;
+}
+
+#hobby-headline img {
+    width: 60px;
+    height: 60px;
+}
+
+#hobby-border {
+    display: flex;
+    border: solid;
+    justify-content: center;
+    align-items: center;
+}
+
+#hobby-border img {
+    width: 60px;
+    height: 60px;
+}
+
+#hobby-border h2 {
+    text-align: center;
+}
+
