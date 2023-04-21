@@ -1,0 +1,19 @@
+/* profile */
+#profile-headline {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#profile-headline p {
+    font-size: 40px;
+    text-align: center;;
+}
+
+#profile-headline img {
+    width: 60px;
+    height: 60px;
+}
+
+.profile {
+    margin: 20px;
+}
