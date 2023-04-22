@@ -13,6 +13,9 @@
     text-align: center;;
 }
 
+#profile-headline {
+    font-family: "Nico Moji";
+}
 #profile-headline img {
     width: 60px;
     height: 60px;
@@ -32,49 +35,131 @@
     margin: 70px 20px 20px 20px;
 }
 
-/* hobby */
-.skill{
+/* production */
+.production{
     margin: 20px;
+    text-align: center;
+    
 }
 
-#skill-headline {
+#production-headline {
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-bottom: 20px;
 }
 
-#skill-headline p {
+#production-headline p {
     font-size: 40px;
     text-align: center;
 }
 
-#skill-headline img {
+#production-headline h1 {
+    font-family: "Nico Moji";
+}
+
+#production-headline img {
     width: 60px;
     height: 60px;
 }
 
-#skill-border {
-    border: solid;
+#production-border {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: -40px;
+    margin-top: 30px;
 }
 
-#skill-border h1 {
-    text-align: center;
+.production img {
+    width: 380px;
+    height: 200px;
 }
 
-#language {
+.production #detail{
+    border: 1px solid #cec5c5;
+    margin-right: 40px;
+    
+}
+
+.production h2 {
+    font-family: "Nico Moji";
+}
+
+/* ボタン */
+#btn a {
+    background: #eee;
+    border: 1px solid #333;
+    border-radius: 3px;
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 280px;
+    padding: 10px 25px;
+    color: #313131;
+    transition: 0.3s ease-in-out;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+#btn a:hover {
+    background: #313131;
+    color: #FFF;
+}
+#btn a:after {
+    content: '';
+    width: 5px;
+    height: 5px;
+    border-top: 3px solid #313131;
+    border-right: 3px solid #313131;
+    transform: rotate(45deg) translateY(-50%);
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    border-radius: 1px;
+    transition: 0.3s ease-in-out;
+}
+#btn a:hover:after {
+    border-color: #FFF;
+}
+
+.future-prespects {
+    margin: 20px;
+}
+
+#future-prospects-headline {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-#language img {
-    margin: 30px;
+#future-prospects-headline h1{
+    font-family: "Nico Moji";
 }
 
-#language img {
-    width: 48px;
-    height: 48px;
+#future-prospects-headline img {
+    width: 60px;
+    height: 60px;
 }
 
+#future-prospects-border {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
 
+.list-001 {
+    list-style-type: disc;
+    padding: 1em 1em 1em 2.5em;
+    border: 2px solid #2589d0;
+}
 
+.list-001 li {
+    padding: .3em .3em .3em 0;
+}
+
+.list-001 li::marker {
+    color: #2589d0;
+    font-size: 1.1em;
+}
