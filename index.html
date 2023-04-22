@@ -8,126 +8,149 @@
         <link href="https://fonts.googleapis.com/earlyaccess/kokoro.css" rel="stylesheet">
     </head>
     <body>
-        <header>
-            <img src="img/git.png">
-            <h1>
-                <a href="#">PORTFOLIO</a>
-            </h1>
-            <nav class="pc-nav">
-                <ul>
-                    <li><a href="/">TOP</a></li>
-                    <li><a href="/">PROFILE</a></li>
-                    <li><a href="#">PRODUCTION</a></li>
-                    <li><a href="/">SKILL</a></li> 
-                </ul>
-            </nav>
-        </header>
+        <section id="top">
+            <header>
+                <img src="img/git.png">
+                <h1>
+                    <a href="#">PORTFOLIO</a>
+                </h1>
+                <nav class="pc-nav">
+                    <ul id="page-link">
+                        <li><a href="#top">TOP</a></li>
+                        <li><a href="#profile">PROFILE</a></li>
+                        <li><a href="#production">PRODUCTION</a></li>
+                        <li><a href="#future-prospects">FUTURE PROSPECTS</a></li> 
+                    </ul>
+                </nav>
+            </header>
+        </section>
 
         <div class="main">
-            <div class="profile">
-                <div id="profile-headline">
-                    <img src="img/user.png">
-                    <p>PROFILE</p>
-                </div>
-                <div id="profile-border">
-                    <img src="img/01_019.jpg">
-                    <ul>
-                        <li><h1>前中　啓佑　　19歳</h1></li>
-                        <li><h2>所属：吉田学園情報ビジネス専門学校 AIシステム学科 2年</h2></li>
-                        <li><h2>校内プログラミングコンテスト3位</h2></li>
-                        <li><h2>資格・免許</h2></li>     
+            <section id="profile">
+                <div class="profile">
+                    <div id="profile-headline">
+                        <img src="img/user.png">
+                        <p>PROFILE</p>
+                    </div>
+                    <div id="profile-border">
+                        <img src="img/01_019.jpg">
                         <ul>
-                            <li><h3>JavaSEBronze  2022年10月合格</h3></li>
-                            <li><h3>普通自動車第一種免許(AT限定)  2022年12月取得</h3></li>
-                            <li><h3>Python3エンジニア認定基礎試験  2023年02月合格</h3></li>
-                        </ul>                    
-                    </ul>
+                            <li><h1>前中　啓佑　　19歳</h1></li>
+                            <li><h2>所属：吉田学園情報ビジネス専門学校 AIシステム学科 2年</h2></li>
+                            <li><h2>校内プログラミングコンテスト3位</h2></li>
+                            <li><h2>資格・免許</h2></li>     
+                            <ul>
+                                <li><h3>JavaSEBronze  2022年10月合格</h3></li>
+                                <li><h3>普通自動車第一種免許(AT限定)  2022年12月取得</h3></li>
+                                <li><h3>Python3エンジニア認定基礎試験  2023年02月合格</h3></li>
+                            </ul>                    
+                        </ul>
+                    </div>
                 </div>
-            </div>
+            </section>
 
-            <div class="production">
-                <div id="production-headline">
-                    <img src="img/production.png">
-                    <h1>PRODUCTION</h1>
+            <section id="production">
+                <div class="production">
+                    <div id="production-headline">
+                        <img src="img/production.png">
+                        <h1>PRODUCTION</h1>
+                    </div>
+                    <div id="production-border">
+                        <div id="detail">
+                            <img src="img/rpg.png">
+                            <h2>RPGゲーム</h2>
+                            <h3>Spring Frameworkを使用して作成</h3>
+                            <div id="btn">
+                                <a href="#">詳細はこちら</a>
+                            </div>
+                        </div>
+                        <div id="detail">
+                            <img src="img/opencv.jpg">
+                            <h2>画像識別AI</h2>
+                            <h3>OpenCVを使用して作成</h3>
+                            <div id="btn">
+                                <a href="#">詳細はこちら</a>
+                            </div>
+                        </div>
+                        <div id="detail">
+                            <img src="img/recommend.png">
+                            <h2>アニメレコメンドAI</h2>
+                            <h3>k近傍法を用いて作成</h3>
+                            <div id="btn">
+                                <a href="#">詳細はこちら</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="production-border">
+                        <div id="detail">
+                            <img src="img/rpg.png">
+                            <h2>ECサイト</h2>
+                            <h3>Larevelを使用して作成中</h3>
+                            <div id="btn">
+                                <a href="#">詳細はこちら</a>
+                            </div>
+                        </div>
+                        <div id="detail">
+                            <img src="img/opencv.jpg">
+                            <h2>ホームページ</h2>
+                            <h3>Laravelを使用して作成中</h3>
+                            <div id="btn">
+                                <a href="#">詳細はこちら</a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div id="production-border">
-                    <div id="detail">
-                        <img src="img/rpg.png">
-                        <h2>RPGゲーム</h2>
-                        <h3>Spring Frameworkを使用して作成</h3>
-                        <div id="btn">
-                            <a href="#">詳細はこちら</a>
-                        </div>
-                    </div>
-                    <div id="detail">
-                        <img src="img/opencv.jpg">
-                        <h2>画像識別AI</h2>
-                        <h3>OpenCVを使用して作成</h3>
-                        <div id="btn">
-                            <a href="#">詳細はこちら</a>
-                        </div>
-                    </div>
-                    <div id="detail">
-                        <img src="img/recommend.png">
-                        <h2>アニメレコメンドAI</h2>
-                        <h3>k近傍法を用いて作成</h3>
-                        <div id="btn">
-                            <a href="#">詳細はこちら</a>
-                        </div>
-                    </div>
-                </div>
-                <div id="production-border">
-                    <div id="detail">
-                        <img src="img/rpg.png">
-                        <h2>ECサイト</h2>
-                        <h3>Larevelを使用して作成中</h3>
-                        <div id="btn">
-                            <a href="#">詳細はこちら</a>
-                        </div>
-                    </div>
-                    <div id="detail">
-                        <img src="img/opencv.jpg">
-                        <h2>ホームページ</h2>
-                        <h3>Laravelを使用して作成中</h3>
-                        <div id="btn">
-                            <a href="#">詳細はこちら</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            </section>
 
-            <div class="future-prospects">
-                <div id="future-prospects-headline">
-                    <img src="img/future.png">
-                    <h1>FUTURE PROSPECTS</h1>
-                </div>
-                <div id="future-prospects-border">
-                    <ul class="list-001">
-                        <li><h2>現在作成しているECサイトより本格的なものを作ること</h2>
-                            <ul>
-                                <li><h3>検索や支払方法の選択、ランキングなどの機能を実装していきたいと考えております。</h3></li>
-                            </ul>
-                        </li>
-                        <li><h2>ディープラーニングの勉強</h2>
-                            <ul>
-                                <li><h3>チャットボットなどをECサイトに組み合わせたいと考えております。</h3></li>
-                            </ul>
-                        </li>
-                        <li><h2>AWSの勉強</h2>
-                            <ul>
-                                <li><h3>自分で作成したWebアプリケーションを公開していきたいです。</h3></li>
+            <section id="future-prospects">
+                <div class="future-prospects">
+                    <div id="future-prospects-headline">
+                        <img src="img/future.png">
+                        <h1>FUTURE PROSPECTS</h1>
+                    </div>
+                    <div id="future-prospects-border">
+                        <ul class="list-001">
+                            <li><h2>現在作成しているECサイトより本格的なものを作ること</h2>
+                                <ul>
+                                    <li><h3>検索や支払方法の選択、ランキングなどの機能を実装していきたいと考えております。</h3></li>
+                                </ul>
+                            </li>
+                            <li><h2>ディープラーニングの勉強</h2>
+                                <ul>
+                                    <li><h3>チャットボットなどをECサイトに組み合わせたいと考えております。</h3></li>
+                                </ul>
+                            </li>
+                            <li><h2>AWSの勉強</h2>
+                                <ul>
+                                    <li><h3>自分で作成したWebアプリケーションを公開していきたいです。</h3></li>
 
-                            </ul>
-                        </li>
-                        <li><h2>Atcodeのレーティングが400を超えること</h2>
-                            <ul>
-                                <li><h3>競技プログラミングが好きです。</h3></li>
-                            </ul>
-                        </li>
-                        
-                    </ul>
+                                </ul>
+                            </li>
+                            <li><h2>Atcodeのレーティングが400を超えること</h2>
+                                <ul>
+                                    <li><h3>競技プログラミングが好きです。</h3></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
+            </section>
+            
+            <div class="footer02">
+                <ul class="menu" id="page-link">
+                    <li><a href="#top">TOP</a></li>
+                    <li><a href="#profile">PROFILE</a></li>
+                    <li><a href="#production">PRODUCTION</a></li>
+                    <li><a href="#future-prospects">FUTURE PROSPECTS</a></li>
+                </ul>
+                <p class="copyright">
+                    &copy; My Portfolio
+                </p>
             </div>
         </div>
-    </body>
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+
+        <script src="js/move.js"></script>
+        </body>
+    </body>    
 </html>

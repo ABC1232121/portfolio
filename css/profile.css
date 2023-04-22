@@ -152,14 +152,12 @@
 .list-001 {
     list-style-type: disc;
     padding: 1em 1em 1em 2.5em;
-    border: 2px solid #2589d0;
+    border: 2px solid #6cb39d;
 }
 
 .list-001 li {
     padding: .3em .3em .3em 0;
+    list-style: none;
 }
 
-.list-001 li::marker {
-    color: #2589d0;
-    font-size: 1.1em;
-}
+/* footer */

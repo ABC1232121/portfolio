@@ -24,6 +24,7 @@ header {
     top: 0;
     display: flex;
     align-items: center;
+    z-index: 5;
 }
 
 h1 a{
@@ -60,9 +61,42 @@ header img {
 
 /* main */
 .main {
-    margin: 70px 300px 100px 300px;
+    margin: 70px 300px 0px 300px;
     width: 100%;
     background-color: #fff;
     font-family: "Kokoro";
 }
 
+.footer02 {
+    color: #fff;
+    background: #333;
+    text-align: center;
+    padding: 30px;
+   }
+   .footer02 a {
+    color: #808080;
+    text-decoration: none;
+   }
+   .footer02 a:hover {
+    text-decoration: underline;
+   }
+   .footer02 .menu {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+   }
+   .footer02 .menu li {
+    margin: 0;
+    padding: 0 20px;
+   }
+   .footer02 .copyright {
+    margin: 0;
+    padding: 20px 0 0 0;
+   }
+
+   .footer02 li a:hover {
+    color: red;
+   }
