@@ -61,9 +61,9 @@ header img {
 
 /* main */
 .main {
-    margin: 70px 300px 0px 300px;
+    margin: 70px 10% 0px 10%;
     width: 100%;
-    background-color: #fff;
+    background-color: #ffffff;
     font-family: "Kokoro";
 }
 
