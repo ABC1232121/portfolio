@@ -29,42 +29,52 @@
 #profile-border img {
     width: 244px;
     height: 322px;
+    margin: 70px 20px 20px 20px;
 }
 
 /* hobby */
-.hobby{
+.skill{
     margin: 20px;
 }
 
-#hobby-headline {
+#skill-headline {
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-#hobby-headline p {
+#skill-headline p {
     font-size: 40px;
-    text-align: center;;
-}
-
-#hobby-headline img {
-    width: 60px;
-    height: 60px;
-}
-
-#hobby-border {
-    display: flex;
-    border: solid;
-    justify-content: center;
-    align-items: center;
-}
-
-#hobby-border img {
-    width: 60px;
-    height: 60px;
-}
-
-#hobby-border h2 {
     text-align: center;
 }
+
+#skill-headline img {
+    width: 60px;
+    height: 60px;
+}
+
+#skill-border {
+    border: solid;
+}
+
+#skill-border h1 {
+    text-align: center;
+}
+
+#language {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#language img {
+    margin: 30px;
+}
+
+#language img {
+    width: 48px;
+    height: 48px;
+}
+
+
 
