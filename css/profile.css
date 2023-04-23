@@ -102,6 +102,7 @@
     transition: 0.3s ease-in-out;
     font-weight: 500;
     margin-bottom: 20px;
+    text-decoration: none;
 }
 #btn a:hover {
     background: #313131;
